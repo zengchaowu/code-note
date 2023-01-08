@@ -1,4 +1,5 @@
 import sidebarHome from "./sidebar.home";
+import sidebarJavascript from "./sidebar.javascript";
 
 export default {
   lang: "zh-CN",
@@ -124,6 +125,7 @@ export default {
     ],
     sidebar: {
       "/": sidebarHome,
+      "/javascript/": sidebarJavascript,
     },
   },
 };

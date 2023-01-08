@@ -12,12 +12,12 @@ export default [
     text: "编程语言",
     activeMatch: `^/language/`,
     items: [
-      { text: "javascript", link: "/guide/introduction" },
-      { text: "typescript", link: "/guide/introduction" },
-      { text: "objc", link: "/guide/quick-start" },
-      { text: "swift", link: "/guide/quick-start" },
-      { text: "c&c++", link: "/guide/quick-start" },
-      { text: "java", link: "/guide/quick-start" },
+      { text: "javascript", link: "/language/javascript/index" },
+      { text: "typescript", link: "/language/typescript/index" },
+      { text: "objc", link: "/language/objc/index" },
+      { text: "swift", link: "/language/swift/index" },
+      { text: "c&c++", link: "/language/c&c++/index" },
+      { text: "java", link: "/language/java/index" },
     ],
   },
   {

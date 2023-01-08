@@ -11,7 +11,7 @@ export default {
     nav: navHome,
     sidebar: {
       "/": sidebarHome,
-      "/javascript/": sidebarJavascript,
+      "/language/javascript/": sidebarJavascript,
     },
   },
 };

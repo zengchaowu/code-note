@@ -1,87 +1,89 @@
 export default [
   {
-    text: "Global API",
+    text: "数据存储",
     items: [
-      { text: "Application", link: "/api/application" },
       {
-        text: "General",
-        link: "/api/general",
+        text: "数字",
+        link: "/common/data-store/number",
+      },
+      {
+        text: "字符串",
+        link: "/common/data-store/string",
       },
     ],
   },
   {
-    text: "Composition API",
+    text: "语言特性",
     items: [
-      { text: "setup()", link: "/api/composition-api-setup" },
+      { text: "严格模式", link: "/api/composition-api-setup" },
       {
-        text: "Reactivity: Core",
+        text: "new与构造函数",
         link: "/api/reactivity-core",
       },
       {
-        text: "Reactivity: Utilities",
+        text: "this与原型",
         link: "/api/reactivity-utilities",
       },
       {
-        text: "Reactivity: Advanced",
+        text: "object与Json",
         link: "/api/reactivity-advanced",
       },
       {
-        text: "Lifecycle Hooks",
+        text: "null与undefined",
         link: "/api/composition-api-lifecycle",
       },
       {
-        text: "Dependency Injection",
+        text: "二进制对象blob",
+        link: "/api/composition-api-dependency-injection",
+      },
+      {
+        text: "隐式转换与装拆箱",
+        link: "/api/composition-api-dependency-injection",
+      },
+      {
+        text: "作用域与闭包",
+        link: "/api/composition-api-dependency-injection",
+      },
+      {
+        text: "混入与继承",
+        link: "/api/composition-api-dependency-injection",
+      },
+      {
+        text: "模块化",
         link: "/api/composition-api-dependency-injection",
       },
     ],
   },
   {
-    text: "Options API",
+    text: "重要概念",
     items: [
-      { text: "Options: State", link: "/api/options-state" },
-      { text: "Options: Rendering", link: "/api/options-rendering" },
+      { text: "宏任务与微任务", link: "/api/options-state" },
+      { text: "worker线程", link: "/api/options-rendering" },
       {
-        text: "Options: Lifecycle",
+        text: "异常与日志",
         link: "/api/options-lifecycle",
       },
       {
-        text: "Options: Composition",
-        link: "/api/options-composition",
-      },
-      { text: "Options: Misc", link: "/api/options-misc" },
-      {
-        text: "Component Instance",
-        link: "/api/component-instance",
+        text: "垃圾回收",
+        link: "/api/options-lifecycle",
       },
     ],
   },
   {
-    text: "Built-ins",
+    text: "编程思想",
     items: [
-      { text: "Directives", link: "/api/built-in-directives" },
-      { text: "Components", link: "/api/built-in-components" },
+      { text: "响应式", link: "/api/built-in-directives" },
+      { text: "设计模式", link: "/api/built-in-components" },
       {
-        text: "Special Elements",
+        text: "异步",
         link: "/api/built-in-special-elements",
       },
-      {
-        text: "Special Attributes",
-        link: "/api/built-in-special-attributes",
-      },
     ],
   },
   {
-    text: "Single-File Component",
+    text: "代码块",
     items: [
-      { text: "Syntax Specification", link: "/api/sfc-spec" },
-      { text: "<script setup>", link: "/api/sfc-script-setup" },
-      { text: "CSS Features", link: "/api/sfc-css-features" },
-    ],
-  },
-  {
-    text: "Advanced APIs",
-    items: [
-      { text: "Render Function", link: "/api/render-function" },
+      { text: "asyn&await", link: "/javascript/code/async&await" },
       { text: "Server-Side Rendering", link: "/api/ssr" },
       { text: "TypeScript Utility Types", link: "/api/utility-types" },
       { text: "Custom Renderer", link: "/api/custom-renderer" },

@@ -2,10 +2,9 @@ export default [
   {
     text: "语言基础",
     items: [
-      { text: "基本数据类型", link: "/api/application" },
       {
-        text: "引用数据类型",
-        link: "/api/general",
+        text: "数据类型",
+        link: "/language/javascript/fundation/data-type",
       },
       {
         text: "面向过程",

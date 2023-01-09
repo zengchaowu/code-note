@@ -12,7 +12,7 @@ export default [
     text: "编程语言",
     activeMatch: `^/language/`,
     items: [
-      { text: "javascript", link: "/language/javascript/index" },
+      { text: "javascript", link: "/language/javascript/fundation/data-type" },
       { text: "typescript", link: "/language/typescript/index" },
       { text: "objc", link: "/language/objc/index" },
       { text: "swift", link: "/language/swift/index" },

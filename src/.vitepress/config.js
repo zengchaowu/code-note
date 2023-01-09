@@ -1,6 +1,6 @@
 import navHome from "./nav.home";
 import sidebarHome from "./sidebar.home";
-import sidebarJavascript from "./sidebar.javascript";
+import sidebarLanguageJavascript from "./sidebar.language.javascript";
 
 export default {
   lang: "zh-CN",
@@ -11,7 +11,7 @@ export default {
     nav: navHome,
     sidebar: {
       "/": sidebarHome,
-      "/language/javascript/": sidebarJavascript,
+      "/language/javascript/": sidebarLanguageJavascript,
     },
   },
 };

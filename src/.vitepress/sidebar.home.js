@@ -3,6 +3,10 @@ export default [
     text: "数据存储",
     items: [
       {
+        text: "存储",
+        link: "/common/data-store/store",
+      },
+      {
         text: "数字",
         link: "/common/data-store/number",
       },

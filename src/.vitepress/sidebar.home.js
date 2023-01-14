@@ -10,6 +10,10 @@ export default [
         text: "字符串",
         link: "/common/data-store/string",
       },
+      {
+        text: "复合类型",
+        link: "/common/data-store/compound",
+      },
     ],
   },
   {

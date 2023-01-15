@@ -19,8 +19,8 @@ export default [
         link: "/common/data-store/array",
       },
       {
-        text: "复合类型",
-        link: "/common/data-store/compound",
+        text: "结构体",
+        link: "/common/data-store/struct",
       },
     ],
   },

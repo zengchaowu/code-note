@@ -3,8 +3,16 @@ export default [
     text: "语言基础",
     items: [
       {
-        text: "数据类型",
-        link: "/language/javascript/fundation/data-type",
+        text: "基本数据类型",
+        link: "/language/javascript/base-data-type",
+      },
+      {
+        text: "衍生数据类型",
+        link: "/language/javascript/derive-data-type",
+      },
+      {
+        text: "容器类型",
+        link: "/language/javascript/container",
       },
       {
         text: "面向过程",

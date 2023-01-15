@@ -11,8 +11,12 @@ export default [
         link: "/common/data-store/number",
       },
       {
-        text: "字符串",
-        link: "/common/data-store/string",
+        text: "字符",
+        link: "/common/data-store/character",
+      },
+      {
+        text: "数组",
+        link: "/common/data-store/array",
       },
       {
         text: "复合类型",

@@ -3,9 +3,9 @@ export default [
     text: "通用知识",
     activeMatch: `^/common/`,
     items: [
-      { text: "网络编程指南", link: "/guide/introduction" },
-      { text: "混合应用架构设计", link: "/guide/introduction" },
-      { text: "工程化实践", link: "/guide/introduction" },
+      { text: "网络编程指南", link: "/common/network" },
+      { text: "混合应用架构设计", link: "/common/hybrid" },
+      { text: "工程化实践", link: "/common/engineered" },
     ],
   },
   {

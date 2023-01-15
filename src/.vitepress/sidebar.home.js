@@ -4,23 +4,23 @@ export default [
     items: [
       {
         text: "存储",
-        link: "/common/data-store/store",
+        link: "/common/code/store",
       },
       {
         text: "数字",
-        link: "/common/data-store/number",
+        link: "/common/code/number",
       },
       {
         text: "字符",
-        link: "/common/data-store/character",
+        link: "/common/code/character",
       },
       {
         text: "数组",
-        link: "/common/data-store/array",
+        link: "/common/code/array",
       },
       {
         text: "结构体",
-        link: "/common/data-store/struct",
+        link: "/common/code/struct",
       },
     ],
   },

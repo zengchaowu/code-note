@@ -25,13 +25,13 @@ export default [
     ],
   },
   {
-    text: "语言特性",
+    text: "流程控制",
     items: [
-      { text: "严格模式", link: "/api/composition-api-setup" },
       {
-        text: "new与构造函数",
-        link: "/api/reactivity-core",
+        text: "跳转",
+        link: "/common/code/jump",
       },
+      { text: "循环", link: "/common/code/loop" },
       {
         text: "this与原型",
         link: "/api/reactivity-utilities",

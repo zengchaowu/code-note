@@ -32,37 +32,18 @@ export default [
         link: "/common/code/jump",
       },
       { text: "循环", link: "/common/code/loop" },
+    ],
+  },
+  {
+    text: "函数",
+    items: [
       {
-        text: "this与原型",
-        link: "/api/reactivity-utilities",
+        text: "主函数与子函数",
+        link: "/common/code/function",
       },
       {
-        text: "object与Json",
-        link: "/api/reactivity-advanced",
-      },
-      {
-        text: "null与undefined",
-        link: "/api/composition-api-lifecycle",
-      },
-      {
-        text: "二进制对象blob",
-        link: "/api/composition-api-dependency-injection",
-      },
-      {
-        text: "隐式转换与装拆箱",
-        link: "/api/composition-api-dependency-injection",
-      },
-      {
-        text: "作用域与闭包",
-        link: "/api/composition-api-dependency-injection",
-      },
-      {
-        text: "混入与继承",
-        link: "/api/composition-api-dependency-injection",
-      },
-      {
-        text: "模块化",
-        link: "/api/composition-api-dependency-injection",
+        text: "作用域",
+        link: "/common/code/scope",
       },
     ],
   },

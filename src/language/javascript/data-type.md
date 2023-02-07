@@ -10,6 +10,10 @@ js 存在如下基本类型：
 
 boolean、null、undefined、number、bigint、string、symbol
 
+### bigint
+
+不同于 number，它只能存储整数部分，并且其在标准上不设上下范围，底层实现与 number 完全不同。
+
 ## 包装类型
 
 由于基本数据类型不存在原型，所以基本类型也就无法执行方法。但为什么`'123'.length`可以执行呢。

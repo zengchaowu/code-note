@@ -7,20 +7,12 @@ export default [
         link: "/language/javascript/data-type",
       },
       {
-        text: "容器类型",
-        link: "/language/javascript/container",
+        text: "作用域",
+        link: "/language/javascript/domain",
       },
       {
-        text: "面向过程",
-        link: "/api/general",
-      },
-      {
-        text: "面向对象",
-        link: "/api/general",
-      },
-      {
-        text: "函数式编程",
-        link: "/api/general",
+        text: "对象",
+        link: "/language/javascript/object",
       },
     ],
   },

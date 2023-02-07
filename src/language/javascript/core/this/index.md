@@ -1,8 +1,5 @@
 # js 中的 this
 
-this 是在调用时被绑定的，取决于函数的调用栈。
-所有，我们如果要找到 this 的具体绑定对象，需要找到函数的调用位置，然后判断绑定类型。
-
 # 默认绑定
 
 ```javascript
@@ -67,22 +64,6 @@ bar.call(globalThis); // 使用显式绑定无法修改硬绑定的绑定对象�
 func5.call(2);
 bar();
 ```
-
-// new 绑定
-// 在传统的面向对象语言中，使用 new 会调用类的构造函数。
-// js 中构造函数不属于任何一个类，并且只不过是预先定义的一些工具函数，能够被 new 关键字调用。
-// 使用 new 来调用与直接调用这些函数，存在差别。
-// 使用 new 会创建一个全新的对象，然后执行 prototype 连接，然后将其绑定到函数调用的 this。
-console.log('------------ new 绑定 ---------------')
-function func6() {
-console.log(typeof(this))
-console.log(this)
-}
-console.log(typeof(func6))
-var bar = new func6() // 使用 new 来调用函数时，会创建一个新的对象，bar 获取的是返回的对象。js 中没有类的概念，只要结构相同就是同一个对象。
-var bar2 = func6
-bar2() // 这里是执行默认绑定
-console.log(bar2)
 
 ## 显式绑定
 

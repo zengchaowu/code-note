@@ -22,6 +22,10 @@ export default [
         text: "结构体",
         link: "/common/code/struct",
       },
+      {
+        text: "元祖",
+        link: "/common/code/tuple",
+      },
     ],
   },
   {
@@ -38,7 +42,7 @@ export default [
     text: "函数",
     items: [
       {
-        text: "主函数与子函数",
+        text: "函数原理",
         link: "/common/code/function",
       },
       {

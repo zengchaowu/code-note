@@ -19,12 +19,28 @@ export default [
         link: "/common/code/array",
       },
       {
+        text: "切片",
+        link: "/common/code/slice",
+      },
+      {
         text: "结构体",
         link: "/common/code/struct",
       },
       {
-        text: "元祖",
+        text: "元组",
         link: "/common/code/tuple",
+      },
+      {
+        text: "列表",
+        link: "/common/code/list",
+      },
+      {
+        text: "Set",
+        link: "/common/code/set",
+      },
+      {
+        text: "Map",
+        link: "/common/code/map",
       },
     ],
   },
@@ -52,38 +68,32 @@ export default [
     ],
   },
   {
-    text: "重要概念",
+    text: "面向对象",
     items: [
-      { text: "宏任务与微任务", link: "/api/options-state" },
-      { text: "worker线程", link: "/api/options-rendering" },
+      { text: "类", link: "/api/options-state" },
+      { text: "对象", link: "/api/options-state" },
+      { text: "继承", link: "/api/options-rendering" },
       {
-        text: "异常与日志",
+        text: "协议",
         link: "/api/options-lifecycle",
       },
       {
-        text: "垃圾回收",
+        text: "设计模式",
         link: "/api/options-lifecycle",
       },
     ],
   },
   {
-    text: "编程思想",
+    text: "网络",
     items: [
-      { text: "响应式", link: "/api/built-in-directives" },
-      { text: "设计模式", link: "/api/built-in-components" },
+      { text: "协议", link: "/api/built-in-directives" },
+      { text: "TCP", link: "/api/built-in-directives" },
+      { text: "UDP", link: "/api/built-in-components" },
+      { text: "SOCKET", link: "/api/built-in-components" },
       {
-        text: "异步",
+        text: "HTTP",
         link: "/api/built-in-special-elements",
       },
-    ],
-  },
-  {
-    text: "代码块",
-    items: [
-      { text: "asyn&await", link: "/javascript/code/async&await" },
-      { text: "Server-Side Rendering", link: "/api/ssr" },
-      { text: "TypeScript Utility Types", link: "/api/utility-types" },
-      { text: "Custom Renderer", link: "/api/custom-renderer" },
     ],
   },
 ];

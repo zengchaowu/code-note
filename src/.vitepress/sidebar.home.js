@@ -89,9 +89,9 @@ export default [
       { text: "协议", link: "/api/built-in-directives" },
       { text: "TCP", link: "/api/built-in-directives" },
       { text: "UDP", link: "/api/built-in-components" },
-      { text: "SOCKET", link: "/api/built-in-components" },
+      { text: "Socket", link: "/api/built-in-components" },
       {
-        text: "HTTP",
+        text: "Http",
         link: "/api/built-in-special-elements",
       },
     ],

@@ -4,8 +4,8 @@ import sidebarLanguageJavascript from "./sidebar.language.javascript";
 
 export default {
   lang: "zh-CN",
-  title: "Code Note",
-  description: "Some Note 4 Code",
+  title: "笔记",
+  description: "一些笔记",
   themeConfig: {
     logo: "/logo.svg",
     nav: navHome,

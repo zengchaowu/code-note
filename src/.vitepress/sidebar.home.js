@@ -4,43 +4,43 @@ export default [
     items: [
       {
         text: "存储",
-        link: "/common/code/store",
+        link: "/common/code/store/store",
       },
       {
         text: "数字",
-        link: "/common/code/number",
+        link: "/common/code/store/number",
       },
       {
         text: "字符",
-        link: "/common/code/character",
+        link: "/common/code/store/character",
       },
       {
         text: "数组",
-        link: "/common/code/array",
+        link: "/common/code/store/array",
       },
       {
         text: "切片",
-        link: "/common/code/slice",
+        link: "/common/code/store/slice",
       },
       {
         text: "结构体",
-        link: "/common/code/struct",
+        link: "/common/code/store/struct",
       },
       {
         text: "元组",
-        link: "/common/code/tuple",
+        link: "/common/code/store/tuple",
       },
       {
         text: "列表",
-        link: "/common/code/list",
+        link: "/common/code/store/list",
       },
       {
         text: "Set",
-        link: "/common/code/set",
+        link: "/common/code/store/set",
       },
       {
         text: "Map",
-        link: "/common/code/map",
+        link: "/common/code/store/map",
       },
     ],
   },
@@ -49,9 +49,9 @@ export default [
     items: [
       {
         text: "跳转",
-        link: "/common/code/jump",
+        link: "/common/code/flow/jump",
       },
-      { text: "循环", link: "/common/code/loop" },
+      { text: "循环", link: "/common/code/flow/loop" },
     ],
   },
   {

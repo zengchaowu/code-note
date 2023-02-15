@@ -3,7 +3,7 @@ export default [
     text: "数据存储",
     items: [
       {
-        text: "存储基础",
+        text: "基础",
         link: "/common/code/store/fundation",
       },
       {

@@ -1,5 +1,5 @@
 import navHome from "./nav.home";
-import sidebarHome from "./sidebar.home";
+import sidebarCommonCode from "./sidebar.common.code";
 import sidebarLanguageJavascript from "./sidebar.language.javascript";
 
 export default {
@@ -10,7 +10,7 @@ export default {
     logo: "/logo.svg",
     nav: navHome,
     sidebar: {
-      "/": sidebarHome,
+      "/common/code/": sidebarCommonCode,
       "/language/javascript/": sidebarLanguageJavascript,
     },
   },

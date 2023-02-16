@@ -11,8 +11,16 @@ export default [
         link: "/common/code/store/number",
       },
       {
+        text: "编码",
+        link: "/common/code/store/encode",
+      },
+      {
         text: "字符",
         link: "/common/code/store/character",
+      },
+      {
+        text: "字符串",
+        link: "/common/code/store/string",
       },
       {
         text: "数组",

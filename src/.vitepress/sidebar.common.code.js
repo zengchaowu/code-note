@@ -23,6 +23,10 @@ export default [
         link: "/common/code/store/string",
       },
       {
+        text: "元组",
+        link: "/common/code/store/tuple",
+      },
+      {
         text: "数组",
         link: "/common/code/store/array",
       },
@@ -31,16 +35,12 @@ export default [
         link: "/common/code/store/slice",
       },
       {
-        text: "结构体",
-        link: "/common/code/store/struct",
-      },
-      {
-        text: "元组",
-        link: "/common/code/store/tuple",
-      },
-      {
         text: "列表",
         link: "/common/code/store/list",
+      },
+      {
+        text: "结构体",
+        link: "/common/code/store/struct",
       },
       {
         text: "Set",

@@ -31,12 +31,12 @@ export default [
         link: "/common/code/store/array",
       },
       {
-        text: "切片",
-        link: "/common/code/store/slice",
+        text: "链表",
+        link: "/common/code/store/list",
       },
       {
-        text: "列表",
-        link: "/common/code/store/list",
+        text: "切片",
+        link: "/common/code/store/slice",
       },
       {
         text: "结构体",

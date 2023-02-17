@@ -39,12 +39,8 @@ export default [
         link: "/common/code/store/struct",
       },
       {
-        text: "Set",
-        link: "/common/code/store/set",
-      },
-      {
-        text: "Map",
-        link: "/common/code/store/map",
+        text: "哈希",
+        link: "/common/code/store/hash",
       },
     ],
   },

@@ -35,10 +35,6 @@ export default [
         link: "/common/code/store/list",
       },
       {
-        text: "切片",
-        link: "/common/code/store/slice",
-      },
-      {
         text: "结构体",
         link: "/common/code/store/struct",
       },

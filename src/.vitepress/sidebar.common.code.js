@@ -42,6 +42,18 @@ export default [
         text: "哈希",
         link: "/common/code/store/hash",
       },
+      {
+        text: "树",
+        link: "/common/code/store/tree",
+      },
+      {
+        text: "图",
+        link: "/common/code/store/tree",
+      },
+      {
+        text: "数据库",
+        link: "/common/code/store/tree",
+      },
     ],
   },
   {
@@ -52,6 +64,7 @@ export default [
         link: "/common/code/flow/jump",
       },
       { text: "循环", link: "/common/code/flow/loop" },
+      { text: "异常", link: "/common/code/flow/loop" },
     ],
   },
   {
@@ -63,6 +76,10 @@ export default [
       },
       {
         text: "作用域",
+        link: "/common/code/scope",
+      },
+      {
+        text: "函数式编程",
         link: "/common/code/scope",
       },
     ],
@@ -86,6 +103,7 @@ export default [
   {
     text: "网络",
     items: [
+      { text: "连接原理", link: "/api/built-in-directives" },
       { text: "协议", link: "/api/built-in-directives" },
       { text: "TCP", link: "/api/built-in-directives" },
       { text: "UDP", link: "/api/built-in-components" },

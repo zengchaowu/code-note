@@ -7,6 +7,10 @@ export default [
         link: "/language/javascript/data-type",
       },
       {
+        text: "流程控制",
+        link: "/language/javascript/flow",
+      },
+      {
         text: "作用域",
         link: "/language/javascript/domain",
       },

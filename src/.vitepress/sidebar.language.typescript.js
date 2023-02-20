@@ -3,20 +3,24 @@ export default [
     text: "语言基础",
     items: [
       {
-        text: "数据类型",
-        link: "/language/javascript/data-type",
+        text: "工作原理",
+        link: "/language/typescript/principle",
       },
       {
-        text: "流程控制",
-        link: "/language/javascript/flow",
+        text: "类补充",
+        link: "/language/typescript/class",
+      },
+      {
+        text: "类型",
+        link: "/language/typescript/type",
       },
       {
         text: "作用域",
-        link: "/language/javascript/domain",
+        link: "/language/typescript/domain",
       },
       {
         text: "对象",
-        link: "/language/javascript/object",
+        link: "/language/typescript/object",
       },
     ],
   },
@@ -91,7 +95,7 @@ export default [
   {
     text: "代码块",
     items: [
-      { text: "asyn&await", link: "/javascript/code/async&await" },
+      { text: "asyn&await", link: "/typescript/code/async&await" },
       { text: "Server-Side Rendering", link: "/api/ssr" },
       { text: "TypeScript Utility Types", link: "/api/utility-types" },
       { text: "Custom Renderer", link: "/api/custom-renderer" },

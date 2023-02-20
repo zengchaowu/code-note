@@ -5,16 +5,14 @@ export default [
     items: [
       {
         text: "通用编程基础",
-        activeMatch: `^/common/code/`,
         link: "/common/code/store/fundation",
       },
       {
         text: "网络编程指南",
-        activeMatch: `^/common/network/`,
         link: "/common/network/connect",
       },
-      { text: "混合应用架构设计", link: "/common/hybrid" },
-      { text: "工程化实践", link: "/common/engineered" },
+      { text: "混合应用架构设计", link: "/common/hybrid/connect" },
+      { text: "工程化实践", link: "/common/engineered/connect" },
     ],
   },
   {
@@ -33,10 +31,10 @@ export default [
     text: "框架学习",
     activeMatch: `^/framework/`,
     items: [
-      { text: "vuejs", link: "/guide/introduction" },
-      { text: "reactjs", link: "/guide/introduction" },
-      { text: "nuxtjs", link: "/guide/introduction" },
-      { text: "electron", link: "/guide/introduction" },
+      { text: "vue", link: "/framework/vue/component" },
+      { text: "react", link: "/framework/react/component" },
+      { text: "electron", link: "/framework/electron" },
+      { text: "rx-响应式编程", link: "/framework/rx" },
     ],
   },
 ];

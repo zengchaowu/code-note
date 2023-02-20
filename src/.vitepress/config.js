@@ -9,6 +9,10 @@ import sidebarLanguageObjc from "./sidebar.language.objc";
 import sidebarLanguageSwift from "./sidebar.language.swift";
 import sidebarLanguageCpp from "./sidebar.language.cpp";
 import sidebarLanguageJava from "./sidebar.language.java";
+import sidebarFrameworkVue from "./sidebar.framework.vue";
+import sidebarFrameworkReact from "./sidebar.framework.react";
+import sidebarFrameworkElectron from "./sidebar.framework.electron";
+import sidebarFrameworkRx from "./sidebar.framework.rx";
 
 export default {
   lang: "zh-CN",
@@ -28,6 +32,10 @@ export default {
       "/language/swift/": sidebarLanguageSwift,
       "/language/cpp/": sidebarLanguageCpp,
       "/language/java/": sidebarLanguageJava,
+      "/framework/vue/": sidebarFrameworkVue,
+      "/framework/react/": sidebarFrameworkReact,
+      "/framework/electron/": sidebarFrameworkElectron,
+      "/framework/rx/": sidebarFrameworkRx,
     },
   },
 };

@@ -33,8 +33,8 @@ export default [
     items: [
       { text: "vue", link: "/framework/vue/component" },
       { text: "react", link: "/framework/react/component" },
-      { text: "electron", link: "/framework/electron" },
-      { text: "rx-响应式编程", link: "/framework/rx" },
+      { text: "electron", link: "/framework/electron/component" },
+      { text: "rx-响应式编程", link: "/framework/rx/component" },
     ],
   },
 ];

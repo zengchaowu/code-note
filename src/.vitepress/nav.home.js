@@ -8,7 +8,11 @@ export default [
         activeMatch: `^/common/code/`,
         link: "/common/code/store/fundation",
       },
-      { text: "网络编程指南", link: "/common/network" },
+      {
+        text: "网络编程指南",
+        activeMatch: `^/common/network/`,
+        link: "/common/network/connect",
+      },
       { text: "混合应用架构设计", link: "/common/hybrid" },
       { text: "工程化实践", link: "/common/engineered" },
     ],

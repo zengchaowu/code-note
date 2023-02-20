@@ -1,5 +1,6 @@
 import navHome from "./nav.home";
 import sidebarCommonCode from "./sidebar.common.code";
+import sidebarCommonNetwork from "./sidebar.common.network";
 import sidebarLanguageJavascript from "./sidebar.language.javascript";
 
 export default {
@@ -11,6 +12,7 @@ export default {
     nav: navHome,
     sidebar: {
       "/common/code/": sidebarCommonCode,
+      "/common/network/": sidebarCommonNetwork,
       "/language/javascript/": sidebarLanguageJavascript,
     },
   },

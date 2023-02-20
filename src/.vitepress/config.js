@@ -2,6 +2,11 @@ import navHome from "./nav.home";
 import sidebarCommonCode from "./sidebar.common.code";
 import sidebarCommonNetwork from "./sidebar.common.network";
 import sidebarLanguageJavascript from "./sidebar.language.javascript";
+import sidebarLanguageTypescript from "./sidebar.language.typescript";
+import sidebarLanguageObjc from "./sidebar.language.objc";
+import sidebarLanguageSwift from "./sidebar.language.swift";
+import sidebarLanguageCpp from "./sidebar.language.cpp";
+import sidebarLanguageJava from "./sidebar.language.java";
 
 export default {
   lang: "zh-CN",
@@ -14,6 +19,11 @@ export default {
       "/common/code/": sidebarCommonCode,
       "/common/network/": sidebarCommonNetwork,
       "/language/javascript/": sidebarLanguageJavascript,
+      "/language/typescript/": sidebarLanguageTypescript,
+      "/language/objc/": sidebarLanguageObjc,
+      "/language/swift/": sidebarLanguageSwift,
+      "/language/cpp/": sidebarLanguageCpp,
+      "/language/java/": sidebarLanguageJava,
     },
   },
 };

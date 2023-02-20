@@ -22,11 +22,11 @@ export default [
     activeMatch: `^/language/`,
     items: [
       { text: "javascript", link: "/language/javascript/data-type" },
-      { text: "typescript", link: "/language/typescript/index" },
-      { text: "objc", link: "/language/objc/index" },
-      { text: "swift", link: "/language/swift/index" },
-      { text: "c&c++", link: "/language/c&c++/index" },
-      { text: "java", link: "/language/java/index" },
+      { text: "typescript", link: "/language/typescript/data-type" },
+      { text: "objc", link: "/language/objc/data-type" },
+      { text: "swift", link: "/language/swift/data-type" },
+      { text: "c++", link: "/language/cpp/data-type" },
+      { text: "java", link: "/language/java/data-type" },
     ],
   },
   {

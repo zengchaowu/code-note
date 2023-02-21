@@ -20,7 +20,7 @@ export default [
     activeMatch: `^/language/`,
     items: [
       { text: "javascript", link: "/language/javascript/data-type" },
-      { text: "typescript", link: "/language/typescript/data-type" },
+      { text: "typescript", link: "/language/typescript/principle" },
       { text: "objc", link: "/language/objc/data-type" },
       { text: "swift", link: "/language/swift/data-type" },
       { text: "c++", link: "/language/cpp/data-type" },

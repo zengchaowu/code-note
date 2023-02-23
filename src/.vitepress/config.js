@@ -3,6 +3,7 @@ import sidebarCommonCode from "./sidebar.common.code";
 import sidebarCommonNetwork from "./sidebar.common.network";
 import sidebarCommonHybrid from "./sidebar.common.hybrid";
 import sidebarCommonEngineered from "./sidebar.common.engineered";
+import sidebarCommonArchitect from "./sidebar.common.architect";
 import sidebarLanguageJavascript from "./sidebar.language.javascript";
 import sidebarLanguageTypescript from "./sidebar.language.typescript";
 import sidebarLanguageObjc from "./sidebar.language.objc";
@@ -26,6 +27,7 @@ export default {
       "/common/network/": sidebarCommonNetwork,
       "/common/hybrid/": sidebarCommonHybrid,
       "/common/engineered/": sidebarCommonEngineered,
+      '/common/architect/': sidebarCommonArchitect,
       "/language/javascript/": sidebarLanguageJavascript,
       "/language/typescript/": sidebarLanguageTypescript,
       "/language/objc/": sidebarLanguageObjc,

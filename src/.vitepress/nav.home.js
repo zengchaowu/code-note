@@ -13,6 +13,7 @@ export default [
       },
       { text: "混合应用架构设计", link: "/common/hybrid/connect" },
       { text: "工程化实践", link: "/common/engineered/connect" },
+      { text: "架构实例", link: "/common/architect/auth" },
     ],
   },
   {

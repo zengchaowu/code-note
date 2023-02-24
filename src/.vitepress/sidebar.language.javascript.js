@@ -3,20 +3,20 @@ export default [
     text: "语言基础",
     items: [
       {
-        text: "数据类型",
-        link: "/language/javascript/data-type",
+        text: "类型",
+        link: "/language/javascript/foundation/type",
       },
       {
         text: "流程控制",
-        link: "/language/javascript/flow",
+        link: "/language/javascript/foundation/flow",
       },
       {
         text: "作用域",
-        link: "/language/javascript/domain",
+        link: "/language/javascript/foundation/domain",
       },
       {
         text: "对象",
-        link: "/language/javascript/object",
+        link: "/language/javascript/foundation/object",
       },
     ],
   },

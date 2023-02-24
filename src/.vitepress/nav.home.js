@@ -20,7 +20,7 @@ export default [
     text: "编程语言",
     activeMatch: `^/language/`,
     items: [
-      { text: "javascript", link: "/language/javascript/data-type" },
+      { text: "javascript", link: "/language/javascript/foundation/type" },
       { text: "typescript", link: "/language/typescript/foundation/intro" },
       { text: "objc", link: "/language/objc/data-type" },
       { text: "swift", link: "/language/swift/data-type" },

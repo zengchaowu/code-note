@@ -33,23 +33,23 @@ export default [
     ],
   },
   {
-    text: "使用案例",
+    text: "进阶使用",
     items: [
       {
         text: "配置",
-        link: "/language/typescript/application/config",
+        link: "/language/typescript/advanced/config",
       },
       {
         text: "vue",
-        link: "/language/typescript/application/config",
+        link: "/language/typescript/advanced/vue",
       },
       {
         text: "react",
-        link: "/language/typescript/application/config",
+        link: "/language/typescript/advanced/react",
       },
       {
         text: "node",
-        link: "/language/typescript/application/config",
+        link: "/language/typescript/advanced/node",
       },
     ],
   },

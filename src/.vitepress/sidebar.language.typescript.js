@@ -32,4 +32,25 @@ export default [
       },
     ],
   },
+  {
+    text: "使用案例",
+    items: [
+      {
+        text: "配置",
+        link: "/language/typescript/config",
+      },
+      {
+        text: "vue",
+        link: "/language/typescript/config",
+      },
+      {
+        text: "react",
+        link: "/language/typescript/config",
+      },
+      {
+        text: "node",
+        link: "/language/typescript/config",
+      },
+    ],
+  },
 ];

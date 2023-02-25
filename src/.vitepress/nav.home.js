@@ -32,6 +32,7 @@ export default [
     text: "框架学习",
     activeMatch: `^/framework/`,
     items: [
+      { text: "node", link: "/framework/node/intro" },
       { text: "vue", link: "/framework/vue/component" },
       { text: "react", link: "/framework/react/component" },
       { text: "electron", link: "/framework/electron/component" },

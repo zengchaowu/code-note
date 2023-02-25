@@ -36,7 +36,7 @@ export default [
       { text: "vue", link: "/framework/vue/component" },
       { text: "react", link: "/framework/react/component" },
       { text: "electron", link: "/framework/electron/component" },
-      { text: "rx-响应式编程", link: "/framework/rx/component" },
+      { text: "rx", link: "/framework/rx/component" },
     ],
   },
 ];
